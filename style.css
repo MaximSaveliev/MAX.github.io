@@ -1,0 +1,113 @@
+
+/* Navbar Decoration */
+
+.navbar{
+    font-size: 1.1em;
+}
+.navbar .navbar-brand>span{
+    color: royalblue;
+    font-size: 1.25em;
+}
+.navbar .navbar-brand>i{
+    color: rgb(48, 201, 201);
+}
+
+/* Image Carousel */
+
+#CountriesForTravel .carousel-inner{
+    width: 100vw;
+    height: 77vh;
+    overflow: hidden;
+}
+#CountriesForTravel .carousel-inner .carousel-item img{
+    width: 100vw;
+    height: 77vh;
+    object-fit: cover;
+}
+
+/* Carousel-Indicators */
+
+.carousel-control-prev .fa-plane{
+    transform: rotate(-180deg);
+}
+.carousel-control-prev .fa-plane,
+.carousel-control-next .fa-plane{
+    position: relative;
+    top: 2em;
+    font-size: 1.25em;
+    color: ghostwhite;
+}
+#CountriesForTravel .carousel-indicators li{
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+}
+/* Carousel Text */
+
+.carousel-item .carousel-caption>h3{
+    position: relative;
+    top: -1.2em;
+    font-family: 'Roboto', sans-serif;
+    color: ghostwhite;
+}
+
+/* Fixed Elements */
+
+.navbar .small-menu{
+    position: fixed;
+    top: 0.95rem;
+    transform: translateX(77vw);
+}
+
+/* Footer Styling */
+
+footer{
+    background-color: #EEE;
+}
+
+.list1 a h5{
+    font-size: 1.3em;
+}
+.list1 a,
+.list2 a,
+.list3 a{
+    text-decoration: none!important;
+    font-size: 1.1em;
+    font-family: 'Roboto', sans-serif;
+}
+.list1 a .flag,
+.list2 a .flag{
+    width: 20px;
+}
+.list3 a .logo{
+    width: 25px;
+    margin: 10px 20px 10px 10px;
+}
+footer .list-contacts {
+    font-size: 1.3em;
+    text-shadow: 1px 3px 1px grey;
+}
+
+/* Fix font-size */
+
+@media (max-width: 991px){
+    .navbar{
+        font-size: 0.95em;
+    }
+}
+
+/* Align Buttons */
+
+@media (max-width: 767px){
+    .navbar .account{
+    position: fixed;
+    top: 0.75rem;
+    transform: translateX(63vw);
+    }
+}
+@media (max-width: 670px){
+    .navbar .small-menu{
+        position: fixed;
+        transform: translateX(82vw);
+    }
+}
